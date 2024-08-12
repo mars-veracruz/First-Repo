@@ -1,83 +1,233 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 OPR/112.0.0.0" version="24.7.6">
   <diagram name="Seite-1" id="-tbs9R99MU5sMYvW19ob">
-    <mxGraphModel dx="1727" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2598" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GuMBQw5mWaE-lglOih7J-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;CINEMA ERM&lt;/h1&gt;&lt;p style=&quot;margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;&lt;br/&gt;margin-left:0cm;text-align:justify;line-height:115%&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;line-height: 115%; font-family: Arial, sans-serif; color: rgb(32, 33, 34);&quot; lang=&quot;EN-US&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;The STAR-MOVIES company operates a cinema chain&lt;br&gt;with several cinemas (Name, Address... ). Each cinema can have several halls&lt;br&gt;where the films are shown. The seating plan of each hall should be recorded; a&lt;br&gt;row and a seat must be indicated for each seat. A box should be managed like a&lt;br&gt;row. It must be possible to create a seating plan. Of course, several films can&lt;br&gt;be shown per room on one day. In order to be able to determine which seats are&lt;br&gt;available for a performance, each ticket purchase must be noted. Each ticket&lt;br&gt;should show: cinema, hall, film title, date, starting time, serial number, row,&lt;br&gt;seat, price. Provision must be made for pricing: Each row of a hall has a&lt;br&gt;standard price, but for certain performances the row prices can be set&lt;br&gt;individually. For information purposes, the actors should be recorded with&lt;br&gt;their personal data (surname, first name, nationality, date of birth, date of&lt;br&gt;death, comments, ... ) and it should be possible to tell which actors have&lt;br&gt;acted in which films. The analogous statements should also be possible for&lt;br&gt;directors, whereby it can be assumed that there is only one director for a&lt;br&gt;film. However, it is possible that the director also plays a part in a film.&lt;br&gt;The other data of a film include: Title, type (thriller, western, youth film, ...&lt;br&gt;), year of production, country, language, duration, distribution, etc.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;&lt;br/&gt;margin-left:0cm;text-align:justify;line-height:115%&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;line-height: 115%; font-family: Arial, sans-serif; color: rgb(32, 33, 34);&quot; lang=&quot;EN-US&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;&lt;br/&gt;margin-left:0cm;text-align:justify;line-height:115%&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;line-height: 115%; font-family: Arial, sans-serif; color: rgb(32, 33, 34);&quot; lang=&quot;EN-US&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Create a ERD and a Relation Model for this example&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry width="360" height="350" as="geometry" />
+        <mxCell id="GuMBQw5mWaE-lglOih7J-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CINEMA ERM&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;&lt;br/&gt;margin-left:0cm;text-align:justify;line-height:115%&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;line-height: 115%; font-family: Arial, sans-serif; color: rgb(32, 33, 34);&quot; lang=&quot;EN-US&quot;&gt;&lt;font size=&quot;3&quot; style=&quot;&quot;&gt;The STAR-MOVIES company operates a cinema chain&lt;br&gt;with several cinemas (Name, Address... ). Each cinema can have several halls&lt;br&gt;where the films are shown. The seating plan of each hall should be recorded; a&lt;br&gt;row and a seat must be indicated for each seat. A box should be managed like a&lt;br&gt;row. It must be possible to create a seating plan. Of course, several films can&lt;br&gt;be shown per room on one day. In order to be able to determine which seats are&lt;br&gt;available for a performance, each ticket purchase must be noted. Each ticket&lt;br&gt;should show: cinema, hall, film title, date, starting time, serial number, row,&lt;br&gt;seat, price. Provision must be made for pricing: Each row of a hall has a&lt;br&gt;standard price, but for certain performances the row prices can be set&lt;br&gt;individually. For information purposes, the actors should be recorded with&lt;br&gt;their personal data (surname, first name, nationality, date of birth, date of&lt;br&gt;death, comments, ... ) and it should be possible to tell which actors have&lt;br&gt;acted in which films. The analogous statements should also be possible for&lt;br&gt;directors, whereby it can be assumed that there is only one director for a&lt;br&gt;film. However, it is possible that the director also plays a part in a film.&lt;br&gt;The other data of a film include: Title, type (thriller, western, youth film, ...&lt;br&gt;), year of production, country, language, duration, distribution, etc.&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;&lt;br/&gt;margin-left:0cm;text-align:justify;line-height:115%&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;line-height: 115%; font-family: Arial, sans-serif; color: rgb(32, 33, 34);&quot; lang=&quot;EN-US&quot;&gt;&lt;font size=&quot;3&quot; style=&quot;&quot;&gt;Create a ERD and a Relation Model for this example&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry width="570" height="360" as="geometry" />
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-2" value="CINEMA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-3" value="HALL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="900" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-4" value="SEAT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="647" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-5" value="ROW" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="767" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-6" value="SEAT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="767" width="120" height="60" as="geometry" />
+          <mxGeometry x="780" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-8" value="part of" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="717" width="60" height="30" as="geometry" />
+          <mxGeometry x="570" y="700" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-9" value="part of" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="717" width="60" height="30" as="geometry" />
+          <mxGeometry x="810" y="700" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-5" target="GuMBQw5mWaE-lglOih7J-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1130" y="907" as="sourcePoint" />
-            <mxPoint x="1180" y="857" as="targetPoint" />
+            <mxPoint x="760" y="890" as="sourcePoint" />
+            <mxPoint x="810" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-6" target="GuMBQw5mWaE-lglOih7J-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1190" y="807" as="sourcePoint" />
-            <mxPoint x="1240" y="757" as="targetPoint" />
+            <mxPoint x="820" y="790" as="sourcePoint" />
+            <mxPoint x="870" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-8" target="GuMBQw5mWaE-lglOih7J-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1130" y="907" as="sourcePoint" />
-            <mxPoint x="1180" y="857" as="targetPoint" />
+            <mxPoint x="760" y="890" as="sourcePoint" />
+            <mxPoint x="810" y="840" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1090" y="707" />
+              <mxPoint x="720" y="690" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-14" value="is showing" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="545" width="80" height="50" as="geometry" />
+          <mxGeometry x="180" y="635" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-15" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-2" target="GuMBQw5mWaE-lglOih7J-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="520" as="sourcePoint" />
-            <mxPoint x="490" y="470" as="targetPoint" />
+            <mxPoint x="160" y="610" as="sourcePoint" />
+            <mxPoint x="210" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-17" value="BOX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="923" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GuMBQw5mWaE-lglOih7J-18" value="FILM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="540" width="120" height="60" as="geometry" />
+        <mxCell id="GuMBQw5mWaE-lglOih7J-18" value="FILMCHOICE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-19" value="ACTOR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-20" value="DIRECTOR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-21" value="PRICE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="900" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GuMBQw5mWaE-lglOih7J-22" value="TICKET" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GuMBQw5mWaE-lglOih7J-23" value="FILMTYPE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="670" width="120" height="60" as="geometry" />
+        <mxCell id="GuMBQw5mWaE-lglOih7J-23" value="FILM" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-24" value="part of" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="695.5" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-25" value="part of" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="695.5" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-20" target="GuMBQw5mWaE-lglOih7J-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="705.5" as="sourcePoint" />
+            <mxPoint x="220" y="645.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-25" target="GuMBQw5mWaE-lglOih7J-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="705.5" as="sourcePoint" />
+            <mxPoint x="460" y="645.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-24" target="GuMBQw5mWaE-lglOih7J-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="680" as="sourcePoint" />
+            <mxPoint x="460" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-29" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-14" target="GuMBQw5mWaE-lglOih7J-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="690" as="sourcePoint" />
+            <mxPoint x="280" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-36" target="GuMBQw5mWaE-lglOih7J-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="650" as="sourcePoint" />
+            <mxPoint x="530" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-31" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-39" target="GuMBQw5mWaE-lglOih7J-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="520" as="sourcePoint" />
+            <mxPoint x="470" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-48" target="GuMBQw5mWaE-lglOih7J-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="600" as="sourcePoint" />
+            <mxPoint x="610" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-33" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-46" target="GuMBQw5mWaE-lglOih7J-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="700" as="sourcePoint" />
+            <mxPoint x="780" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-34" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-40" target="GuMBQw5mWaE-lglOih7J-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="600" as="sourcePoint" />
+            <mxPoint x="820" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-35" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-42" target="GuMBQw5mWaE-lglOih7J-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="877" as="sourcePoint" />
+            <mxPoint x="630" y="827" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-37" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-23" target="GuMBQw5mWaE-lglOih7J-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="630" as="sourcePoint" />
+            <mxPoint x="340" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-36" value="guests choice" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="550" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-38" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-18" target="GuMBQw5mWaE-lglOih7J-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="490" as="sourcePoint" />
+            <mxPoint x="660" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-39" value="needs to buy" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="465" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-41" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-4" target="GuMBQw5mWaE-lglOih7J-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="630" as="sourcePoint" />
+            <mxPoint x="720" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-40" value="needs to choose" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="545" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-43" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-17" target="GuMBQw5mWaE-lglOih7J-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="923" as="sourcePoint" />
+            <mxPoint x="600" y="843" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-42" value="can also be a" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="840" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-45" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-3" target="GuMBQw5mWaE-lglOih7J-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="660" as="sourcePoint" />
+            <mxPoint x="780" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-46" value="belongs to" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="635" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-47" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-3" target="GuMBQw5mWaE-lglOih7J-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="630" as="sourcePoint" />
+            <mxPoint x="960" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-48" value="has a price" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="550" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-49" value="&lt;u&gt;Cinema-ID&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="610" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-50" value="Address" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="552.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-51" value="Name" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-52" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-49" target="GuMBQw5mWaE-lglOih7J-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="650" as="sourcePoint" />
+            <mxPoint x="40" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-56" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-2" target="GuMBQw5mWaE-lglOih7J-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="620" as="sourcePoint" />
+            <mxPoint x="150" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuMBQw5mWaE-lglOih7J-57" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GuMBQw5mWaE-lglOih7J-51" target="GuMBQw5mWaE-lglOih7J-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="740" as="sourcePoint" />
+            <mxPoint x="80" y="690" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
