@@ -1841,6 +1841,12 @@
         <mxCell id="DG5vKe27Ntzc1hTyhyYz-2" value="has a" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="905" y="2920" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="DG5vKe27Ntzc1hTyhyYz-4" value="M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="3110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DG5vKe27Ntzc1hTyhyYz-5" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="2940" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
